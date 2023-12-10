@@ -20,10 +20,12 @@ return {
   visual = {
     a = { fg = colors.color2, bg = colors.color3, gui = 'bold' },
     b = { fg = colors.color3, bg = colors.color5 },
+    c = { fg = colors.color9, bg = colors.color10 },
   },
   replace = {
     a = { fg = colors.color2, bg = colors.color8, gui = 'bold' },
     b = { fg = colors.color8, bg = colors.color5 },
+    c = { fg = colors.color9, bg = colors.color10 },
   },
   inactive = {
     a = { fg = colors.color9, bg = colors.color10, gui = 'bold' },
@@ -33,9 +35,11 @@ return {
   normal = {
     a = { fg = colors.color2, bg = colors.color15, gui = 'bold' },
     b = { fg = colors.color15, bg = colors.color5 },
+    c = { fg = colors.color9, bg = colors.color10 },
   },
   insert = {
     a = { fg = colors.color11, bg = colors.color12, gui = 'bold' },
     b = { fg = colors.color12, bg = colors.color5 },
+    c = { fg = colors.color9, bg = colors.color10 },
   },
 }
